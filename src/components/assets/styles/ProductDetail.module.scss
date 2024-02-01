@@ -1,0 +1,147 @@
+.wrapper {
+  width: 100%;
+  min-height: 758px;
+}
+
+.container {
+  width: 950px;
+  padding: 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  .container-name {
+    padding-bottom: 10px;
+  }
+
+  hr {
+    border: 3px solid #53a564;
+    border-radius: 5px;
+  }
+  .left-container {
+    padding: 0 30px;
+    .preview-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+    .preview-img {
+      width: 100%;
+      height: 330px;
+      object-fit: cover;
+    }
+    .thumbnail-img {
+      width: 170px;
+      height: 100px;
+      padding: 0px;
+      object-fit: cover;
+    }
+  }
+  .right-container {
+    padding: 50px 0;
+    .title-name {
+      color: #53a564;
+      font-size: 35px;
+    }
+
+    p {
+      padding: 10px 0;
+      font-size: 20px;
+    }
+
+    .quantity {
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+    }
+
+    .price {
+      color: red;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 30px 0;
+    }
+  }
+
+  .describe,
+  .prescription {
+    text-align: justify;
+  }
+
+  .describe {
+    padding: 10px 0;
+    font-size: 24px;
+  }
+
+  .prescription {
+    font-size: 23px;
+    .title-prescription {
+      font-size: 25px;
+      font-weight: 700;
+      padding: 10px 0;
+      color: #53a564;
+    }
+  }
+
+  .button-cart {
+    padding: 20px 0;
+    button {
+      height: 40px;
+      margin-right: 15px;
+      padding: 10px;
+      border: none;
+      color: #fff;
+      background: #53a564;
+      transition: 0.5s;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .button {
+    display: flex;
+    button,
+    input {
+      outline: none;
+      cursor: pointer;
+      border: 0;
+      font-size: 0.875rem;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+      border: 1px solid rgba(0, 0, 0, 0.09);
+      border-radius: 2px;
+      background: transparent;
+      color: rgba(0, 0, 0, 0.8);
+      width: 32px;
+      height: 32px;
+    }
+
+    input {
+      width: 50px;
+      height: 32px;
+      border-left: 0;
+      border-right: 0;
+      font-size: 16px;
+      font-weight: 400;
+      box-sizing: border-box;
+      text-align: center;
+      cursor: text;
+      border-radius: 0;
+    }
+  }
+}
+
+//swiper
+:root {
+  --swiper-theme-color: #ccc;
+}

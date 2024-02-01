@@ -1,0 +1,152 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 70%;
+  min-height: 758px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #000;
+}
+
+.content-title {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 50px 0;
+  line-height: 1.5;
+
+  p {
+    font-size: 18px;
+  }
+
+  .news-left {
+    padding-right: 20px;
+  }
+}
+
+.title-name {
+  font-size: 40px;
+}
+
+.latest-news-left {
+  position: relative;
+}
+
+.content-latest-news-left {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 50px;
+  line-height: 1.45;
+  z-index: 1;
+}
+
+.name-latest-news {
+  font-size: 30px;
+}
+
+.latest-news-left {
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+  }
+}
+
+.name-latest-news-right {
+  div {
+    padding: 30px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #f7f7f7;
+    cursor: pointer;
+  }
+  &:hover a {
+    color: #555555;
+  }
+}
+
+.project {
+  padding: 40px 0;
+  border-bottom: 1px solid #ccc;
+  .container-content-project {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: justify;
+  }
+  .title-project {
+    font-size: 20px;
+  }
+
+  .content-project {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 20px;
+  }
+}
+
+.project:hover {
+  .container-content-project {
+    color: #555555;
+  }
+}
+.project {
+  img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+.news-hot {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+//   .news-hot div:first-child {
+//     font-size: 20px;
+//   }
+
+.news-hot {
+  div {
+    padding: 20px 0;
+    border-bottom: 1px solid #d8d8d8;
+    cursor: pointer;
+  }
+}
+
+//   .news-hot div:hover a {
+//     color: #555555;
+//   }
+
+.more {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.more {
+  a {
+    line-height: 100px;
+    border: 1px solid #e03c31;
+    color: #e03c31;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+}
+
+//   .more a:hover {
+//     background-color: #e03c31;
+//     color: #fff;
+//   }
+.link {
+  text-decoration: none;
+}

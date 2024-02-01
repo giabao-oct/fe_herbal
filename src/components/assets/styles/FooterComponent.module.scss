@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  text-align: center;
+  background-color: #53a564;
+  .container {
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    a {
+      margin: 10px;
+      color: #fff;
+    }
+
+    .set-icon {
+      //   background: #53a564;
+
+      border: 1px solid #fff;
+      font-size: 15px;
+      padding: 14px 16px;
+      border-radius: 50%;
+    }
+
+    .set-icon-f {
+      padding: 14px 18px;
+    }
+
+    .set-icon-github {
+      padding: 14px 15px;
+    }
+  }
+
+  .copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+  }
+}

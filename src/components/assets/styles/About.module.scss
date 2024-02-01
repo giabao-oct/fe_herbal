@@ -1,0 +1,19 @@
+.wrapper {
+  min-height: 758px;
+}
+
+.container {
+  width: 1050px;
+  min-height: 758px;
+  font-size: 27px;
+  background: #fff;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  .content {
+    text-align: justify;
+    margin: 20px 0;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}

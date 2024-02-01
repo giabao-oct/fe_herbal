@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clear {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-two {
+  width: 50%;
+}
+
+.col-three {
+  width: 33.33333%;
+}
+
+.col-four {
+  width: 25%;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-two-third {
+  width: 66.66666% !important;
+}
+
+.col-one-third {
+  width: 33.33333% !important;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.sixty-five-percent {
+  width: 65%;
+}
+
+.forty-five-percent {
+  width: 45%;
+}
+
+.thirty-five-percent {
+  width: 35%;
+}
+
+.sixty-percent {
+  width: 60%;
+}
+
+.forty-percent {
+  width: 40%;
+}
+
+.font-weight700 {
+  font-weight: 700;
+}
+
+.border-radius10 {
+  border-radius: 10px;
+}
+
+.hightlight {
+  color: #faa935;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.gap-1-rem {
+  gap: 1rem;
+}
+
+.gap-3-rem {
+  gap: 3rem;
+}
+
+.gap-5-px {
+  gap: 5px;
+}
+
+.font-w-700 {
+  font-weight: 700;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+//notification
+.notification {
+  width: 100%;
+  height: 758px;
+  .notification-container {
+    height: 758px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+}

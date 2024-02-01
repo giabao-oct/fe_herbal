@@ -1,0 +1,53 @@
+.wrapper {
+  min-height: 758px;
+}
+
+.container {
+  width: 850px;
+  background: #fff;
+  padding: 60px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  .title {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #53a564;
+  }
+  p {
+    line-height: 50px;
+    font-size: 25px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+      i {
+        color: #000;
+      }
+    }
+
+    th {
+      background-color: #f2f2f2;
+      text-align: center;
+      font-weight: bold;
+    }
+    .bt-edit {
+      text-align: center;
+
+      span {
+        padding: 10px;
+      }
+    }
+  }
+}
